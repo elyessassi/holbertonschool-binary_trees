@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+#include <stdli.h>
 
 /**
  * binary_tree_delete - Deletes a binary tree
@@ -9,8 +10,8 @@
  {
     if (tree != NULL)
     {
-        free(tree->left)
-        free(tree->right)
-        free(tree)
+        free(tree->left);
+        free(tree->right);
+        free(tree);
     }
  }
