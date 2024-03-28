@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * binary_tree_node - create a binary tree node left
+ * binary_tree_insert_left - create a binary tree node left
  * @parent: pointer to the parent of the node
  * @value: value of the new node
  * Return: new node
