@@ -2,7 +2,7 @@
 
 
 /**
- * binary_tree_leaves - a function that measures the number of leafs in  a binary tree
+ * binary_tree_leaves - counts the number of leafs in  a binary tree
  * @tree: pointer to the first node of tree
  * Return: number of leaves in the binary tree
  */
