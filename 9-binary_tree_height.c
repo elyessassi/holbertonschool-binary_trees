@@ -1,6 +1,8 @@
 #include "binary_trees.h"
 #include <stdlib.h>
 #include <stddef.h>
+#include <stdio.h>
+#include <stdbool.h>
 
 /**
  * binary_tree_postorder - go throught a binary tree in a postorder order
@@ -12,15 +14,8 @@ size_t binary_tree_height(const binary_tree_t *tree)
 {
 	size_t left_h;
 	size_t right_h;
-	int x = 0;
+	int x = 1;
 
-	if (x == 0)
-	{
-		if (tree != NULL)
-			x = 1;
-		else
-			return (0);
-	}
 
 	if (!tree)
 		return (-1);
