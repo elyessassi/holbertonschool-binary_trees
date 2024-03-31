@@ -31,7 +31,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_balance - balance factor 
+ * binary_tree_balance - balance factor
  * @tree: A pointer to a root of a tree
  * Return: 0 or balance factor
  */
